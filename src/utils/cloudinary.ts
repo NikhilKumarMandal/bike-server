@@ -3,10 +3,11 @@ import fs from "fs";
 
 import { ApiError } from "./api-error";
 
+
 cloudinary.config({
-    cloud_name: 'dfnbvscob',
-    api_key: '332287963247526',
-    api_secret: 'bz4ES2JEgFlAPcmqPMg_03kbVlQ'
+  cloud_name: 'dtzrcc8kt',
+  api_key: '719672424879476',
+  api_secret: '6iFWg6PsGblc4VXkT-8NEeVqS84'
 });
 
 const uploadFile = async (filePath: string) => {
